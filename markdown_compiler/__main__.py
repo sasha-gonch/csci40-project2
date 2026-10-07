@@ -4,7 +4,7 @@
 '''Convert a Markdown document into an HTML file.'''
 
 
-from markdown_compiler import markdown_to_html
+from markdown_compiler import convert_file
 
 
 def main():
@@ -16,7 +16,7 @@ def main():
     args = parser.parse_args()
 
     # call the main function
-    markdown_to_html(args.input_file, args.add_css)
+    convert_file(args.input_file, args.add_css)
 
 
 if __name__ == '__main__':

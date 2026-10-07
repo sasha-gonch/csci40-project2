@@ -130,7 +130,6 @@ def compile_lines(text):
         print('i=',i)
     </pre>
     <BLANKLINE>
-    
     '''
     lines = text.split('\n')
     new_lines = []
